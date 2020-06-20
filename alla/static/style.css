@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar{
+    background-color:#f14a4abb;
+    margin: 6xp 7px;
+    padding: 15px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 17px 31px;
+    font-size: 19px;
+
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+#intro{
+    background: center/cover no-repeat url(https://cdn.pixabay.com/photo/2014/01/29/17/24/disney-254494_1280.jpg);
+    display: flex;
+    flex-direction: column;
+    /*padding-top: 150px;
+    padding-right: 40px;*/
+    font-size: 46px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    background-color: thistle;
+    font-family: 'Livvic', sans-serif;
+    /*font-weight: bold;*/
+}
+#sasura{
+    height: 180px;
+    background-color: violet;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    height: 60px;
+    background-color:black;
+}
+#footer p{
+    color: white;
+}
+.small{
+    font-size: 28px;
+    padding: 5px;
+}
+#sasura h3{
+    font-size: 25px;
+    padding:2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+#mission{
+    height: 850px;
+    background-color: white;
+    margin:auto;
+    width:103%;
+    display: block;
+    text-align: center;
+
+}
+#mission h2{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 42px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: thistle;
+    height: 250px;
+    width: 70%;
+    margin: 3px 31px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+#logo img{
+    height: 35px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 200px;
+    padding: 0px 5px;
+   
+}
+.card-img img{
+    height: inherit;
+    margin-top: -33px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: -165px;
+}
+.card-content1 p{
+    margin: -190px -93px -41px -12px;
+    padding: 18px 154px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.card-content2 p{
+    margin: -203px -126px -41px -12px;
+    padding: 40px 211px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.card-content3 p{
+    margin: -197px -131px -41px -12px;
+    padding: 20px 201px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+#spon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#spon img{
+    height: 76px;
+    max-width: 1000px;
+}
+.prince{
+    margin: 12px 19px;
+}
